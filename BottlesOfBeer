@@ -1,0 +1,11 @@
+public class BottlesOfBeer{
+
+     public static void main(String []args){
+        for(int bottlenum = 99; 1 <= bottlenum;){
+            
+            System.out.println(bottlenum + " bottles of beer on the wall, "+ bottlenum + " bottles of beer");
+            bottlenum--;
+            System.out.println("Take one down and pass it around, " + bottlenum + " bottles of beer on the wall");
+        }       
+     }
+}
